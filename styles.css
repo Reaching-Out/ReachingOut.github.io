@@ -1,6 +1,8 @@
 h1 {
   text-align: center;
   font-family: sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 h2 {
@@ -11,10 +13,19 @@ h3 {
   text-align: left;
 }
 
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
 
 body {
   background-image:url(https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?cs=srgb&dl=pexels-min-an-1353938.jpg&fm=jpg);
   text-align: center;
+  height: 100%;
+  margin: 0;
 }
 
 table {
@@ -47,7 +58,7 @@ table {
 
   .DormTitle {
     color: blue;
-    margin-top: 225px;
+    padding-top: 200px;
   }
 
   .number {
@@ -60,4 +71,7 @@ table {
     margin-right: auto;
     background-color: #CCCCFF;
     border-radius: 20px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
