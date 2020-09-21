@@ -18,7 +18,8 @@ body {
 }
 
 table {
-  padding-left: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
